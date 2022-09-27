@@ -9,12 +9,13 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Reporter;
 import org.testng.annotations.Test;
 
+import com.beust.jcommander.Parameter;
 import com.beust.jcommander.Parameters;
 
 public class first {
 	
 	public WebDriver driver;
-	@parameters({"browserName"})
+	@Parameter({"browser"})
 	@Test
 	public void demo(String browser) {
 		if(browser.equals("chrome")) {

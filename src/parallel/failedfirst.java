@@ -12,7 +12,7 @@ import com.beust.jcommander.Parameters;
 public class failedfirst {
 public WebDriver driver;
 	
-	@Parameters({"browserName"})
+	@Parameters({"chrome"})
 	@Test
 	public void demo(String browser) {
 		if(browser.equals("chrome")) {

@@ -33,11 +33,7 @@ r.keyRelease(KeyEvent.VK_TAB);
 r.keyRelease(KeyEvent.VK_TAB);
 r.keyRelease(KeyEvent.VK_ENTER);
 
-//.keyRelease(KeyEvent.VK_CONTROL);
-r.keyPress(KeyEvent.VK_CONTROL);
-.keypress(KeyEvent.VK_TAB);
-.keyPress(KeyEvent.VK_TAB);
-r.keyPress
+
 
 
 
